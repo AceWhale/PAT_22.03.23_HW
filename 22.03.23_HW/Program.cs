@@ -186,6 +186,8 @@ namespace _22._03._23_HW
                 car = new CarBuilder2();
             if (choose == 3)
                 car = new CarBuilder3();
+            if (choose == 4)
+                car = new CarBuilder4();
             else
                 car = null;
         }
